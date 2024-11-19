@@ -1,1 +1,44 @@
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #d86767;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 600px;
+    background: #ff9c9c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, .8);
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  textarea {
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 15px;
+  }
+  
+  #wordcount, #sentenceCount {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #000000;
+  }
+  
